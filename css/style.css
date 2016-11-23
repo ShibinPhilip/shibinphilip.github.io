@@ -996,11 +996,11 @@ p {
     float: none;
     padding: 0;
 }
-.contact-form input[type="text"] {
+.contact-form input[type="text"], .contact-form input[type="email"] {
     width: 100%;
     margin-top: 1em;
 }
-.contact-form input[type="text"].email {
+.contact-form input[type="email"].email {
     margin: 1em 0 0 0;
 }
 .address-left {
@@ -1103,7 +1103,7 @@ h3.title {
     padding: 0.6em 1em;
     font-size: 0.9em;
 }
-.contact-form input[type="text"] {
+.contact-form input[type="text"], .contact-form input[type="email"] {
     font-size: 0.9em;
 }
 .contact-form textarea {
