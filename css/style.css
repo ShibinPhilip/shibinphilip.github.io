@@ -599,11 +599,11 @@ h2.resp-accordion {
     color: #008B8B;
 }
 ::-webkit-input-placeholder {
-	color:#fff !important;
+	color:#000 !important;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-	color:#fff !important; 
+	color:#000 !important; 
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
@@ -611,7 +611,7 @@ h2.resp-accordion {
 }
 
 :-ms-input-placeholder {  
-	color:#fff !important;
+	color:#000 !important;
 }
 /*--//contact--*/
 /*--footer--*/
