@@ -980,7 +980,7 @@ p {
     font-size: 1em;
 }
 .footer p {
-    font-size: 1em;
+    font-size: 0.7em;
 }
 }
 @media(max-width:414px){
