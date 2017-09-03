@@ -13,11 +13,9 @@
 </html>
 <script type="text/javascript">
 	$(document).onload(function(){
-        $("#vote").click(function(){
-            var userid = "59a7ba8ab6fe5";
-            $.post( "https://www.iamnikon.in/festive/share_count.php", { userid: userid }).done(function( data ) {
-                    console.log(data);
-            });
+        var userid = "59a7ba8ab6fe5";
+        $.post( "https://www.iamnikon.in/festive/share_count.php", { userid: userid }).done(function( data ) {
+                console.log(data);
         });
 	});
 </script>
